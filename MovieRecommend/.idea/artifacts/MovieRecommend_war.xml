@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="MovieRecommend:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="spark.war">
+      <element id="artifact" artifact-name="MovieRecommend:war exploded" />
+    </root>
+  </artifact>
+</component>
