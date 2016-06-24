@@ -37,7 +37,7 @@
         <property name="dataSource" ref="dataSource"/>
         <!-- 自动扫描mapping.xml文件 -->
         <property name="mapperLocations" value="classpath*:com/spark/mapping/*.xml"></property>
-
+        <!--当程序报错不存在com.spark.mapping目录时,可以将原来的classpath换成classpath*,此时该错误可以解决-->
     </bean>
 
     <!-- DAO接口所在包名，Spring会自动查找其下的类 -->
